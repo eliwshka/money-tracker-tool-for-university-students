@@ -1,5 +1,8 @@
 import { Transaction, Budget, FinancialOverview } from './types';
 
+// Re-export types for external use
+export type { FinancialOverview } from './types';
+
 const STORAGE_KEYS = {
   TRANSACTIONS: 'university-money-tracker-transactions',
   BUDGETS: 'university-money-tracker-budgets',
